@@ -23,12 +23,15 @@
           for (producto of datos) {
             cad += `
             <div class="tarjeta">
-                <img src="${producto.image}" alt="${producto.title}">
-                <div class="cuerpo">
-                    <h4>${producto.id} - ${producto.title}</h4>
-                    <p>${producto.description}</p>
-                    
-                </div>
+              <div class="tarjeta--img">
+                  <img class="tarjeta--portada" src="${producto.image}" alt="${producto.title}">
+              </div>
+              <div class="cuerpo">
+                  <h4>${producto.id} - ${producto.title}</h4>
+                  <p>${producto.description}</p>
+                  <button class="tarjeta--button"><a class="tarjeta--enlace" href="${producto.spotify}">spotify</a></button>
+                  <button class="tarjeta--button"><a class="tarjeta--enlace" href="${producto.youtube}">youtube</a></button>
+              </div>
             </div>   
         `
             }
