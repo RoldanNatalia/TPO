@@ -27,10 +27,10 @@
                   <img class="tarjeta--portada" src="${producto.image}" alt="${producto.title}">
               </div>
               <div class="cuerpo">
-                  <h4>${producto.id} - ${producto.title}</h4>
+                  <h4>${producto.title}</h4>
                   <p>${producto.description}</p>
-                  <button class="tarjeta--button"><a class="tarjeta--enlace" href="${producto.spotify}">spotify</a></button>
-                  <button class="tarjeta--button"><a class="tarjeta--enlace" href="${producto.youtube}">youtube</a></button>
+                  <button class="cuerpo--button"><a class="cuerpo--enlace" href="${producto.spotify}">spotify</a></button>
+                  <button class="cuerpo--button"><a class="cuerpo--enlace" href="${producto.youtube}">youtube</a></button>
               </div>
             </div>   
         `
