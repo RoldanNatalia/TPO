@@ -12,17 +12,26 @@
 </head>
 <body>
     <header>
-        <div class="header-logo">
-        <img width="80" src="./imagenes/Music page (1).png" alt="logo">
-        </div>
-        <div class="flex-container">
+        <div class="header">
+
             
-            <a class="nav" href="newsletter.html">Newsletter</a>
-            <a class="nav" href="history.html">Music History</a>
-            <a class="nav" href="index.html">PLAYLIST</a>
-            <a class="nav" href="us.html">Us</a>
-            <a class="nav" href="contact.html">Contáctanos</a>
-           
+            <div class="header-logo">
+                <a href="index.html"><img class="img_logo" src="./imagenes/Music page (1).png" alt="logo"> </a>
+                
+            </div>
+
+            <nav>
+                <div class="flex-container">
+                
+                    <a target="_blank" class="nav" href="newsletter.html">Newsletter</a>
+                    <a target="_blank" class="nav" href="history.html">Music History</a>
+                    <a class="nav" href="index.html">PLAYLIST</a>
+                    <a target="_blank" class="nav" href="us.html">Us</a>
+                    <a target="_blank" class="nav" href="contact.html">Contáctanos</a>
+                
+                </div>
+            </nav>
+            
         </div>
     </header>
     <main>
@@ -30,6 +39,12 @@
         <br><br><br><br><br><br>
         <img src="" alt="">
 
+        <div id="tarjetas">
+
+
+
+        </div>
+        <!--
         <div class="contenedor">
 
        
@@ -82,13 +97,35 @@
                 <p>Música para arrancar el fin de semana</p>
                 <a class="boton"  href="https://open.spotify.com/playlist/37i9dQZF1EIVmqhwdlpWRU?si=841a4baa45204269">IR A</a>
             </div>
+            -->
+
     </main>
     <footer>
-        <div id="footer">
+        <div class="footer_redes">
+            <br>
+            <h3 class="textfooter">Síguenos en las redes sociales:</h3>
+            <br>
+            <a target="_blank" href="https://es-la.facebook.com/"> <img width="20px" src="./imagenes/facebook.png" alt="facebook"></a>
+            <a target="_blank" href="https://www.instagram.com/"> <img width="20px" src="./imagenes/instagram.png" alt="Instagram"></a>
+            <a target="_blank" href="https://www.linkedin.com/"><img width="20px" src="./imagenes/linkedin.png" alt="linkedin"></a>
+            <a target="_blank" href="https://www.youtube.com/"><img width="20px" src="./imagenes/youtube.png" alt="youtube"></a>
 
+        </div>
+        <div class="footer_integrantes">
+            <br>
+            <h3 class="textfooter">Codo a Codo 4.0</h3>
+            <p class="textfooter">Sabina Fabrega - Julieta Cabrera - Natalia Roldán</p>
+            
+
+        </div>
+        <div id="footer">
+            <br><br>
             <p class="textfooter">Music Page - @Copyright 2022</p>
         </div>
         
     </footer>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="./JS/data.json"></script>
+    <script src="./JS/main.js" ></script>
 </body>
 </html>

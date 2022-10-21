@@ -1,0 +1,70 @@
+{
+  "arreglo": [
+
+        
+        {
+            "id":1,
+            "title":"Mama´s song",
+            "image":"./imagenes/mom.png",
+            "description": "Para recordar a tu viejita",
+            "spotify":"https://open.spotify.com/playlist/5jX7nSwAPU5IoM47Tw4Cox?si=4051df4cb5ff40d0",
+            "youtube":""
+        },
+        {
+            "id":2,
+            "title":"I wanna cry",
+            "image":"./imagenes/cry.png",
+            "description": "Para estar más triste",
+            "spotify":"https://open.spotify.com/playlist/3g7p7MIQDBK42Kfs2573Wa?si=e0a8b0bc34f9498b",
+            "youtube":""
+        },
+        {
+            "id":3,
+            "title":"Anime vibes",
+            "image":"./imagenes/ramen.png",
+            "description": "Para fingir que hablas japones",
+            "spotify":"https://open.spotify.com/playlist/4xROUZI3CORCUxy6rN014w?si=383b30d4e9c04483",
+            "youtube":""
+        },
+        {
+            "id":4,
+            "title":"Orchestra",
+            "image":"./imagenes/study.png",
+            "description": "Para estudiar como un filósofo",
+            "spotify":"https://open.spotify.com/playlist/1Ku1hWFxGjSKghPiMmpLLA?si=21d733ca498c4dc5",
+            "youtube":""
+        },
+        {
+            "id":5,
+            "title":"De chill",
+            "image":"./imagenes/deChill.png",
+            "description": "No lo escuches si estás triste",
+            "spotify":"https://open.spotify.com/playlist/4a2teePXT9oOnYeviNUscK?si=3cbf081dea3d4c50",
+            "youtube":""
+        },
+        {
+            "id":6,
+            "title":"Rockear como Steve",
+            "image":"./imagenes/rockearComoSteve.png",
+            "description": "Para sentirte malote y full metalero",
+            "spotify":"",
+            "youtube":""
+        },
+        {
+            "id":7,
+            "title":"Disni",
+            "image":"./imagenes/disni.png",
+            "description": "Para tu niño interior :)",
+            "spotify":"",
+            "youtube":""
+        },
+        {
+            "id":8,
+            "title":"Mix",
+            "image":"./imagenes/Mix.png",
+            "description": "Para limpiar la casa bien a gusto",
+            "spotify":"",
+            "youtube":""
+        }
+]
+}
