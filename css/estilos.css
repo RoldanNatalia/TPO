@@ -145,6 +145,16 @@ header{
         justify-content: space-between;
     }
 }
+/*SCROLLBAR*/
+
+main::-webkit-scrollbar {
+    width:7px;
+    background:#000;
+  }
+  main::-webkit-scrollbar-thumb{
+    background:#258;
+    border-radius: 5px;
+  }
 
 /*****************************/
 /*TARJETAS*/
@@ -201,7 +211,7 @@ header{
     
 }
 .cuerpo--button:hover{
-    border: 1px solid #b3bcbd;
+    border: 1px solid #f3f4f4;
 }
 
 /*FOOTER*/
