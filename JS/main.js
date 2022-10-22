@@ -6,20 +6,27 @@ function validarForm(){
   if(document.getElementById("InputName").value.length < 2 ){
     
     isCorrect = false;
+
     
   }
    
-  
+  if(document.getElementById("InputAsunto").value.length < 2 ){
+    
+    isCorrect = false;
+    
+  }
+   
   if(document.getElementById("InputEmail1").value.length < 5 ){
       isCorrect = false;
   }
       if (isCorrect){
-        
-          let nom=document.getElementById("InputName").value
-          let email=document.getElementById("InputEmail1").value
-          localStorage.setItem("Nombre",nom)
-          localStorage.setItem("email", email)
+
+          alert("Los datos fueron enviados.");
+         
+          return true;
           
+
+                    
 
          /* const fs = require('fs'); 
  
@@ -30,6 +37,10 @@ function validarForm(){
           console.log('The file has been saved!'); 
           }); */
 
+          } else {
+            alert("Por favor, revise los datos ingresados!!");
+            return false
+
           }
       
     
@@ -38,6 +49,15 @@ function validarForm(){
     
 
           
+  
+}
+function limpiarInput(){
+
+  document.getElementById("InputName").value = "";
+  document.getElementById("InputPais").value = "";
+  document.getElementById("InputEmail1").value = "";
+  document.getElementById("InputAsunto").value = "";
+  document.getElementById("InputComentario").value = "";
   
 }
 

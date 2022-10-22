@@ -37,7 +37,7 @@
     <main>
         <br>
         <div class="container">
-            <form onsubmit="validarForm()">
+            <form onsubmit="return validarForm()" action="https://formspree.io/f/mknezlbq" method="POST">
                 
                 <div class="form-group">
                     <label for="InputName">Nombre</label>
@@ -78,7 +78,8 @@
                 </div>
                 
                 
-                <button type="submit" class="btn btn-primary" value="enviar">Submit</button>
+                <button type="submit" class="btn btn-primary" value="enviar">Enviar</button>
+                <button type="reset" class="btn btn-primary" value="reiniciar">Borrar</button>
             </form>
 
         </div>
