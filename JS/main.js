@@ -53,7 +53,7 @@
         
 
 const navVar = ` <nav class="nav">
-                    <a class="nav--logo--link" href="/index.html"><img class="nav--logo" src="https://placekitten.com/30/30" alt="Logo"></a>
+                    <a class="nav--logo--link" href="/index.html"><img id="nav--logo" src="./imagenes/logoTrabajoGrupal.png" alt="Logo"></a>
                     <button class="nav--toggle"><img class="nav--toggle--img" src="/imagenes/lista.png" alt=""></button>
                     <ul class="nav--ul nav--ul--visible">
                       <li class="nav--ul--item"><a href="/newsletter.html" class="nav--ul--link nav--link">newletter</a></li>
@@ -71,3 +71,25 @@ const navVar = ` <nav class="nav">
   const navUl = document.querySelector(".nav--ul");
   navToggle.addEventListener("click", () => { 
     navUl.classList.toggle("nav--ul--visible");});
+
+const foot = `<div class="footer--contenedor--cuerpo">
+
+<div class="footer_integrantes footer--contenedor">
+    <br>
+    <a href="https://www.buenosaires.gob.ar/educacion/codo-codo" class="textfooter footer_integrantes_link">Codo a Codo 4.0</a>
+    <p class="textfooter">Sabina Fabrega - Julieta Cabrera - Natalia Roldán</p>
+</div>
+<div class="footer_redes footer--contenedor">
+    <p class="textfooter footer_redes_p">Síguenos en las redes sociales:</p>
+    <a class="footer_redes_link" target="_blank" href="https://es-la.facebook.com/"> <img class="footer_redes_logos" width="20px" src="./imagenes/facebook.png" alt="facebook"></a>
+    <a class="footer_redes_link" target="_blank" href="https://www.instagram.com/"> <img class="footer_redes_logos" width="20px" src="./imagenes/instagram.png" alt="Instagram"></a>
+    <a class="footer_redes_link" target="_blank" href="https://www.linkedin.com/"><img class="footer_redes_logos" width="20px" src="./imagenes/linkedin.png" alt="linkedin"></a>
+    <a class="footer_redes_link" target="_blank" href="https://www.youtube.com/"><img class="footer_redes_logos" width="20px" src="./imagenes/youtube.png" alt="youtube"></a>
+
+</div>
+</div>
+<div id="footer--copy footer--contenedor--copy">
+    <p class="textfooter footer--copy--text">Playlist - @Copyright 2022</p>
+</div>`;
+
+document.getElementById("pie").innerHTML = foot;
