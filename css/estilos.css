@@ -228,7 +228,7 @@ main::-webkit-scrollbar {
     text-align: left;
     padding-left: 7px;
 }
- .tarjeta p, .tarjeta h2{
+ .tarjeta p{
     padding: 10px;
  }
  .tarjeta p{
@@ -437,4 +437,60 @@ footer{
 .form-control-text{
     height: 80px;
     resize:none;
+}
+
+/****************************/
+/*PAGE US*/
+/*textos*/
+.titleUs-h{
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+    padding: 10px;
+
+}
+.titleUs-p{
+    text-align: center;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+
+/*tarjetas*/
+.tarjeta-us{
+    background-color: rgba(255, 255, 255, 0.534);
+    border-radius: 10px;
+    border: 1px solid #000;
+    width: 250px;
+    margin:20px;
+    padding: 10px;
+}
+.tarjeta-us-portada{
+    width: 85%;
+    margin:10px auto;
+    
+
+}
+.tarjeta-us-h{
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+}
+.tarjeta-us-p{
+    font-size: 16px;
+}
+.portada-us-img{
+    width: 100%;
+    border-radius: 50%;
+    border:2px solid rgb(0, 0, 0);
+    
+}
+.tarjeta-us-enlaces{
+    padding: 15px;
+    text-align: center;
+
+    
+}
+.footer-us-redes-link{
+    margin:0 5px;
 }

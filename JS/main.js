@@ -24,18 +24,6 @@ function validarForm(){
           alert("Los datos fueron enviados.");
          
           return true;
-          
-
-                    
-
-         /* const fs = require('fs'); 
- 
-          let objectToSave = {nombre:nom,email:email} 
- 
-          fs.writeFile('archivo.json', JSON.stringify(objectToSave),'utf8', (err) => { 
-          if (err) throw err; 
-          console.log('The file has been saved!'); 
-          }); */
 
           } else {
             alert("Por favor, revise los datos ingresados!!");
@@ -57,42 +45,15 @@ function limpiarInput(){
   
 }
 
-
-
-/*const { createApp } = Vue
-
-  createApp({
-    data() {
-      return {
-        message: 'Hello Vue!'
-      }
-    }
-  }).mount('#app')
-  */
-
-
-
-/*const { createApp } = Vue
-
-  createApp({
-    data() {
-      return {
-        message: 'Hello Vue!'
-      }
-    }
-  }).mount('#app')
-  */
-  let url = "./JS/data.json"
+  let url = "https://raw.githubusercontent.com/saninfa2/prueba/cc79d03cb2b7513b515db1ed2e3a66e8022779fa/data.json";
   let datos = [];
   fetch(url)
       .then(response => response.json())
       .then(data => {  // data contiene el JSON
-          console.log(data)
-          datos = data.arreglo
-          console.log(datos)   //  8 playlists
+          datos = data.arreglo;
   
   
-          let cad = `<div class="container">`
+          let cad = `<div class="container">`;
   
           for (producto of datos) {
             cad += `
@@ -112,9 +73,7 @@ function limpiarInput(){
     
     
             cad += `</div>
-             `
-    
-            console.log(cad)
+             `;
     
     
     
@@ -127,13 +86,13 @@ function limpiarInput(){
         
 //HEADER
 const navVar = ` <nav class="nav">
-                    <a class="nav--logo--link" href="/index.html"><img id="nav--logo" src="./imagenes/logoTrabajoGrupal.png" alt="Logo"></a>
-                    <button class="nav--toggle"><img class="nav--toggle--img" src="/imagenes/lista.png" alt=""></button>
+                    <a class="nav--logo--link" href="./index.html"><img id="nav--logo" src="./imagenes/logoTrabajoGrupal.png" alt="Logo"></a>
+                    <button class="nav--toggle"><img class="nav--toggle--img" src="./imagenes/lista.png" alt=""></button>
                     <ul class="nav--ul nav--ul--visible">
-                      <li class="nav--ul--item"><a href="/index.html" class="nav--ul--link nav--link">HOME</a></li>
-                      <li class="nav--ul--item"><a href="/newsletter.html" class="nav--ul--link nav--link">music history</a></li>
-                      <li class="nav--ul--item"><a href="/contact.html" class="nav--ul--link nav--link">contact</a></li>
-                      <li class="nav--ul--item"><a href="/us.html" class="nav--ul--link nav--link">us</a></li>
+                      <li class="nav--ul--item"><a href="./index.html" class="nav--ul--link nav--link">HOME</a></li>
+                      <li class="nav--ul--item"><a href="./newsletter.html" class="nav--ul--link nav--link">music history</a></li>
+                      <li class="nav--ul--item"><a href="./contact.html" class="nav--ul--link nav--link">contact</a></li>
+                      <li class="nav--ul--item"><a href="./us.html" class="nav--ul--link nav--link">us</a></li>
                     </ul>
                   </nav> ` ;
 
