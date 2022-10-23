@@ -56,10 +56,10 @@ const navVar = ` <nav class="nav">
                     <a class="nav--logo--link" href="/index.html"><img id="nav--logo" src="./imagenes/logoTrabajoGrupal.png" alt="Logo"></a>
                     <button class="nav--toggle"><img class="nav--toggle--img" src="/imagenes/lista.png" alt=""></button>
                     <ul class="nav--ul nav--ul--visible">
-                      <li class="nav--ul--item"><a href="/newsletter.html" class="nav--ul--link nav--link">newletter</a></li>
-                      <li class="nav--ul--item"><a href="/index.html" class="nav--ul--link nav--link">PLAYLIST</a></li>
-                      <li class="nav--ul--item"><a href="/us.html" class="nav--ul--link nav--link">us</a></li>
+                      <li class="nav--ul--item"><a href="/index.html" class="nav--ul--link nav--link">HOME</a></li>
+                      <li class="nav--ul--item"><a href="/newsletter.html" class="nav--ul--link nav--link">music history</a></li>
                       <li class="nav--ul--item"><a href="/contact.html" class="nav--ul--link nav--link">contact</a></li>
+                      <li class="nav--ul--item"><a href="/us.html" class="nav--ul--link nav--link">us</a></li>
                     </ul>
                   </nav> ` ;
 

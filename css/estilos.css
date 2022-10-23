@@ -153,6 +153,37 @@ header{
     .footer--contenedor--cuerpo{
         justify-content: space-between;
     }
+
+    /*MUSIC HISTORY*/
+    .article{
+        margin: 30px;
+        display:flex;
+        flex-direction: column;
+    }
+    .article--text{
+        display:flex;
+        flex-direction: column;
+        width: 80% !important;
+        text-align: center ;
+        padding: 0;
+        margin:0;
+
+    }
+    .article--h{
+        padding-bottom:2px;
+    }
+    .article--p{
+        text-align: center !important;
+        font-weight: 100;
+        line-height: 25px;
+        padding-bottom:10px;
+    }
+    .article--ifr{
+        width: 100% !important;
+        
+    }
+    
+
 }
 /*SCROLLBAR*/
 
@@ -288,4 +319,32 @@ footer{
     .footer_integrantes{
         width:auto;
     }
+}
+
+/**********************************/
+/*MUSIC HISTORY*/
+.article{
+    margin:50px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.article--text{
+    width: 30%;
+
+}
+.article--h{
+    font-weight: 500;
+    font-size: 22px;
+    padding-bottom:3px;
+}
+.article--p{
+    font-size: 17px;
+    text-align: justify;
+    font-weight: 100;
+    line-height: 25px;
+}
+.article--ifr{
+    width: 45vw;
+    height: 300px;
 }
