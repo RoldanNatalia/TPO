@@ -50,8 +50,24 @@
         }
         );
 
-        //TOGLE
-        const navToggle = document.querySelector(".nav--toggle");
-        const navUl = document.querySelector(".nav--ul");
-        navToggle.addEventListener("click", () => { 
-          navUl.classList.toggle("nav--ul--visible");});
+        
+
+const navVar = ` <nav class="nav">
+                    <a class="nav--logo--link" href="/index.html"><img class="nav--logo" src="https://placekitten.com/30/30" alt="Logo"></a>
+                    <button class="nav--toggle"><img class="nav--toggle--img" src="/imagenes/lista.png" alt=""></button>
+                    <ul class="nav--ul nav--ul--visible">
+                      <li class="nav--ul--item"><a href="/newsletter.html" class="nav--ul--link nav--link">newletter</a></li>
+                      <li class="nav--ul--item"><a href="/index.html" class="nav--ul--link nav--link">PLAYLIST</a></li>
+                      <li class="nav--ul--item"><a href="/us.html" class="nav--ul--link nav--link">us</a></li>
+                      <li class="nav--ul--item"><a href="/contact.html" class="nav--ul--link nav--link">contact</a></li>
+                    </ul>
+                  </nav> ` ;
+
+  document.getElementById("navVar").innerHTML = navVar;
+
+
+  //TOGLE
+  const navToggle = document.querySelector(".nav--toggle");
+  const navUl = document.querySelector(".nav--ul");
+  navToggle.addEventListener("click", () => { 
+    navUl.classList.toggle("nav--ul--visible");});
