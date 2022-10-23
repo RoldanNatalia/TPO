@@ -88,12 +88,15 @@ function limpiarInput(){
           for (producto of datos) {
             cad += `
             <div class="tarjeta">
-                <img src="${producto.image}" alt="${producto.title}">
-                <div class="cuerpo">
-                    <h4>${producto.id} - ${producto.title}</h4>
-                    <p>${producto.description}</p>
-                    <a class="boton" href=${producto.spotify}>IR A </a>
-                </div>
+              <div class="tarjeta--img">
+                  <img class="tarjeta--portada" src="${producto.image}" alt="${producto.title}">
+              </div>
+              <div class="cuerpo">
+                  <h4>${producto.title}</h4>
+                  <p>${producto.description}</p>
+                  <button class="cuerpo--button"><a class="cuerpo--enlace" href="${producto.spotify}">spotify</a></button>
+                  <button class="cuerpo--button"><a class="cuerpo--enlace" href="${producto.youtube}">youtube</a></button>
+              </div>
             </div>   
         `
             }
