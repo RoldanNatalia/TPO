@@ -222,13 +222,20 @@ main::-webkit-scrollbar {
     width: 300px;
     overflow: hidden;
  }
-
+.cuerpo--encabezado{
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 7px;
+}
  .tarjeta p, .tarjeta h2{
     padding: 10px;
  }
  .tarjeta p{
-    text-align: justify;
-    font-size: small;
+    text-align: left;
+    padding-left: 7px;
+    font-size: 17px;
+    font-weight: 400;
  }
  .cuerpo{
     padding: 10px;
@@ -265,6 +272,8 @@ main::-webkit-scrollbar {
     margin:10px 25px 5px 22px;
     background: transparent;
     padding:5px;
+    height: 30px;
+    font-size: 14px;
     
 }
 .cuerpo--button:hover{
@@ -326,34 +335,6 @@ footer{
     font-weight: bold;
     font-weight: 100px;
     margin-left: 30px;
-}
-
-/**********************************/
-/*MUSIC HISTORY*/
-.article{
-    margin:50px;
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.article--text{
-    width: 30%;
-
-}
-.article--h{
-    font-weight: 500;
-    font-size: 22px;
-    padding-bottom:3px;
-}
-.article--p{
-    font-size: 17px;
-    text-align: justify;
-    font-weight: 100;
-    line-height: 25px;
-}
-.article--ifr{
-    width: 45vw;
-    height: 300px;
 }
 
 /**********************************/

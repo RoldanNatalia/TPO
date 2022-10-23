@@ -101,7 +101,7 @@ function limpiarInput(){
                   <img class="tarjeta--portada" src="${producto.image}" alt="${producto.title}">
               </div>
               <div class="cuerpo">
-                  <h4>${producto.title}</h4>
+                  <h4 class="cuerpo--encabezado">${producto.title}</h4>
                   <p>${producto.description}</p>
                   <button class="cuerpo--button"><a class="cuerpo--enlace" href="${producto.spotify}">spotify</a></button>
                   <button class="cuerpo--button"><a class="cuerpo--enlace" href="${producto.youtube}">youtube</a></button>
