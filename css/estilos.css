@@ -73,9 +73,10 @@ header{
     list-style: none;
 }
 .nav--ul--item{
-    font-size: 18px;
+    font-size: 15px;
     margin:0 10px;
-    line-height: 80px;
+    line-height: 85px;
+    text-transform:uppercase;
 }
 .nav--ul--link:hover{
     color:#fff;
@@ -130,8 +131,9 @@ header{
         width:100%;
         padding:0;
         overflow-y: auto;
-        left:100%
-        
+        left:100%;
+        text-transform:uppercase;
+        font-size: 16px;
         
     }
     .nav--ul--item{
@@ -168,7 +170,7 @@ main::-webkit-scrollbar {
   /*MAIN*/
   #main--titular{
     font-weight: 400;
-    padding: 20px;
+    padding: 35px;
     text-align: center;
   }
   #main--titular::before{
@@ -184,7 +186,7 @@ main::-webkit-scrollbar {
 .tarjeta{
     padding-bottom: 8px;
     border: 1px solid rgb(0, 0, 0);
-    margin: 10px;
+    margin: 18px;
     border-radius: 10% 0%;
     width: 300px;
     overflow: hidden;
