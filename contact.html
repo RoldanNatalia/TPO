@@ -18,31 +18,31 @@
     <main>
         <br>
         <div class="container">
-            <form onsubmit="return validarForm()" action="https://formspree.io/f/mvoybjql" method="POST">
-                
+            <form class="formulario-contact" onsubmit="return validarForm()" action="https://formspree.io/f/mvoybjql" method="POST">
+                <h2 class="formulario-h" >Contáctanos</h2>
                 <div class="form-group">
-                    <label for="InputName">Nombre</label>
-                    <input size="30" type="text" class="form-control" name="name" id="InputName" required>
+                    <label class="form-group-label" for="InputName">Nombre</label>
+                    <input placeholder="Nombre" size="30" type="text" class="form-control" name="name" id="InputName" required>
                     
                 </div>
                 <div class="form-group">
-                    <label for="InputPais">País</label>
-                    <input size="30" type="text" class="form-control" name="pais" id="InputPais" required>
+                    <label class="form-group-label" for="InputPais">País</label>
+                    <input placeholder="País" size="30" type="text" class="form-control" name="pais" id="InputPais" required>
                     
                 </div>
                 <div class="form-group">
-                    <label for="InputEmail1">Email</label>
-                    <input type="email" class="form-control" name="email" id="InputEmail1" required>
+                    <label class="form-group-label" for="InputEmail1">Email</label>
+                    <input  value="@gmail.com" type="email" class="form-control" name="email" id="InputEmail1" required>
                    
                 </div>
                 <div class="form-group">
-                    <label for="InputAsunto">Asunto</label>
-                    <input type="text" class="form-control" name="asunto" id="InputAsunto" required>
+                    <label class="form-group-label" for="InputAsunto">Asunto</label>
+                    <input placeholder="Asunto" type="text" class="form-control" name="asunto" id="InputAsunto" required>
                     
                 </div>
                 <div class="form-group">
-                    <label for="InputComentario">Comentarios</label>
-                    <textarea rows="5" type="textarea" name="Mensaje" class="form-control" id="InputComentario"> </textarea>
+                    <label class="form-group-label" for="InputComentario">Comentarios</label>
+                    <textarea rows="5" type="textarea" name="Mensaje" class="form-control form-control-text" id="InputComentario"> </textarea>
                 </div>
                 <!--Checks-->
                 <div class="form-check">
@@ -59,14 +59,11 @@
                 </div>
                 
                 
-                <button type="submit" class="btn btn-primary" value="enviar">Enviar</button>
-                <button type="reset" class="btn btn-primary" value="reiniciar">Borrar</button>
+                <button type="submit" class="btn btn-primary form-boton" value="enviar">Enviar</button>
+                <button type="reset" class="btn btn-primary form-boton" value="reiniciar">Borrar</button>
             </form>
 
         </div>
-    
-        
-        <br><br><br><br><br><br>
         
     </main>
     <footer class="footer" id="pie">
