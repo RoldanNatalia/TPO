@@ -320,6 +320,41 @@ footer{
         width:auto;
     }
 }
+.titleUs{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-weight: 100px;
+    margin-left: 30px;
+}
+
+/**********************************/
+/*MUSIC HISTORY*/
+.article{
+    margin:50px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.article--text{
+    width: 30%;
+
+}
+.article--h{
+    font-weight: 500;
+    font-size: 22px;
+    padding-bottom:3px;
+}
+.article--p{
+    font-size: 17px;
+    text-align: justify;
+    font-weight: 100;
+    line-height: 25px;
+}
+.article--ifr{
+    width: 45vw;
+    height: 300px;
+}
 
 /**********************************/
 /*MUSIC HISTORY*/
